@@ -1,0 +1,16 @@
+RewriteEngine on 
+
+
+
+
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=page&action=index&id=$2
+
+RewriteRule ^([a-zA-Z0-9_-]+)-([0-9]+).html$ index.php?mod=post&action=index&id=$2
+
+RewriteRule ^([a-zA-Z0-9_-]+).html$ index.php?mod=products&action=index
+
+
+
+
+
+
